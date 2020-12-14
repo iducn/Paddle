@@ -15,7 +15,7 @@ ENV WITH_GPU=${WITH_GPU:-ON}
 ENV WITH_AVX=${WITH_AVX:-ON}
 
 ENV HOME /root
-# Add bash enhancements
+#  Add bash enhancements
 COPY ./paddle/scripts/docker/root/ /root/
 
 # Prepare packages for Python
